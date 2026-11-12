@@ -209,7 +209,7 @@ Reusable blocks:
 
 Replace `\FigurePlaceholder` calls with `\PosterFigure` calls. The image fits the column width and supplied maximum height without distortion. Prefer vector PDF figures with readable labels. References are plain LaTeX for a minimal build; copy verified entries from the paper and cite their numbers in the text.
 
-The default footer contains two 5.8-inch QR images, inward-facing Paper/Code labels and outward arrows, followed by a centered Mila / UdeM / McGill / Concordia / ICLR logo row. QR positions and logo dimensions are defined for the default 48 x 36-inch layout; the five selected logos are displayed. Select assets through `\PaperQRFile`, `\CodeQRFile`, and the five `*LogoFile` macros in `content.tex`. Layout is defined by `\PosterFooterLayout` in `poster-style.sty`; `\PosterQRSize` controls both QR images. The center content reserves space above this footer.
+The default footer contains two 5.8-inch QR images, inward-facing Paper/Code labels and outward arrows, followed by a centered Mila / McGill / Concordia / ICLR logo row. QR positions and logo dimensions are defined for the default 48 x 36-inch layout; the four selected logos are displayed. Select assets through `\PaperQRFile`, `\CodeQRFile`, and the four `*LogoFile` macros in `content.tex`. Layout is defined by `\PosterFooterLayout` in `poster-style.sty`; `\PosterQRSize` controls both QR images. The center content reserves space above this footer.
 
 ### Generate QR codes locally
 
